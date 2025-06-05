@@ -1,0 +1,293 @@
+/*Radio buttons*/
+.radio-buttons {
+	padding: 5px; /* Espaciado interior para los botones de opción */
+}
+
+/*details*/
+.wpbc_container_booking_form textarea {
+	width: 1000px !important; /* Ancho fijo */
+	max-width: Min(50em, 100%) !important; /* Responsive */
+}
+
+/*capctha*/
+.capctha {
+	padding: 10px 0px; /* Espaciado arriba y abajo para captcha */
+}
+
+div.wpbc_ty__section_text_dates {
+	color: white !important; /* Texto blanco en sección de fechas */
+}
+
+div.wpbc_ty__section_header {
+	display: none; /* Oculta encabezado de sección de confirmación */
+}
+
+/*navbar responsive*/
+@media only screen and (min-width: 1500px) {
+	#form-pc-clon-little {
+		display: none !important; /* Oculta formulario para móviles en pantallas grandes */
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	#form-pc-principal  {
+		display: none !important; /* Oculta formulario principal en pantallas pequeñas */
+	}
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px; /* Layout flexible con espacio entre columnas */
+}
+
+.column {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #B0B8BE;
+	border-radius: 3px; /* Columnas con borde y bordes redondeados */
+}
+
+/*titulo pequeño de la seccion de services*/
+.small-title {
+	color: #008FA9;
+	font-size: 25px; /* Subtítulo color aqua */
+}
+
+.select-box {
+	padding: 10px;
+	border: 1px solid #B0B8BE;
+	border-radius: 13px;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: gray;
+	background-color: #FFFFFFA8 !important; /* Caja de selección estilizada */
+}
+
+.select-box:active {
+	background-color: white !important;
+}
+
+div.elementor-message.elementor-message-success {
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.2; /* Mensaje de éxito en formularios */
+}
+
+div.elementor-message.elementor-message-success a {
+	color: #008FA9; /* Enlaces dentro del mensaje de éxito */
+}
+
+#form-field-field_10cb39e {
+	display: none; /* Campo oculto de formulario */
+}
+
+td.datepick-days-cell.date_available:hover {
+	background-color: #228B22 !important; /* Hover sobre fechas disponibles */
+}
+
+td.datepick-current-day {
+	background-color: #228B22 !important; /* Día actual en calendario */
+}
+
+.elementor h1 { font-size: 40px; }
+.elementor h2 { font-size: 34px; }
+.elementor h3 { font-size: 28px; }
+.elementor h4 { font-size: 20px; line-height: 1.3; }
+.elementor h5 { font-size: 18px; }
+.elementor h6 { font-size: 16px; }
+
+.elementor-widget-heading h1.elementor-heading-title, 
+.elementor-widget-heading  h2.elementor-heading-title, 
+.elementor-widget-heading h3.elementor-heading-title, 
+.elementor-widget-heading h4.elementor-heading-title, 
+.elementor-widget-heading h5.elementor-heading-title, 
+.elementor-widget-heading h6.elementor-heading-title {
+	line-height: 1.4; /* Espaciado entre líneas para títulos */
+}
+
+/* Decorative title lines */
+.hotel-tmpl-titles .elementor-heading-title:before,
+.hotel-tmpl-titles-2 .elementor-heading-title:before {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 50%;
+	border-bottom: 1px solid;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: -40px;
+	opacity: 0.5; /* Línea decorativa antes del título */
+}
+
+.hotel-tmpl-titles-2 .elementor-heading-title:before {
+	width: 60px;
+	margin-left: -60px;
+}
+
+.hotel-page-titles .elementor-heading-title:before,
+.hotel-page-titles .elementor-heading-title:after {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 50%;
+	border-bottom: 1px solid;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: -40px;
+	opacity: 0.5;
+}
+
+.hotel-page-titles .elementor-heading-title:after {
+	margin-left: 10px;
+	margin-right: -40px;
+}
+
+.menu-price .elementor-text-editor p {
+	border-bottom: 1px dashed lightgrey;
+	padding-bottom: 5px; /* Línea decorativa para precios */
+}
+
+/*slider de servicios*/
+body .metaslider .coin-slider,
+body .metaslider .nivoSlider,
+body .metaslider .nivoSlider img,
+body .metaslider .rslides,
+body .metaslider .rslides li,
+body .metaslider .flexslider ul.slides,
+body .metaslider .flexslider .slides li,
+body .metaslider .flexslider .slides ul,
+body .metaslider .flexslider .slides ol,
+body .metaslider .flexslider .slides img,
+body .metaslider .flexslider .flex-direction-nav,
+body .metaslider .flexslider .flex-direction-nav li {
+	border: 1px;
+	border-radius: 13px; /* Bordes redondeados para sliders */
+}
+
+/*formulario de retiro*/
+#formulario-retreat .elementor-field-subgroup.elementor-subgroup-inline .elementor-field-option {
+	padding-inline-end: 20px !important; /* Espaciado entre opciones */
+}
+
+#formulario-retreat .elementor-message-success {
+	color: black; /* Color de mensaje de éxito en formulario de retiro */
+}
+
+div.wp-block-image.is-style-default img {
+	border-radius: 13px; /* Bordes redondeados para imágenes por defecto */
+}
+
+div.wp-block-image img {
+	border-radius: 13px; /* Bordes redondeados para todas las imágenes */
+}
+
+/*formulario de pago*/
+div.forminator-field .forminator-label  {
+	color: black !important;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px !important; /* Etiquetas estilizadas en formularios */
+}
+
+input.forminator-input, span.select2-selection, textarea.forminator-textarea {
+	background-color: white !important;
+	border-color: black !important; /* Campos con fondo blanco y borde negro */
+}
+
+.forminator-ui#forminator-module-4343.forminator-design--default .forminator-radio .forminator-radio-bullet,
+.forminator-ui#forminator-module-4343.forminator-design--default .forminator-radio .forminator-radio-image {
+	border-color: black !important;
+	background-color: white !important; /* Botones de radio estilo blanco y negro */
+}
+
+.forminator-ui#forminator-module-4343.forminator-design--default .forminator-checkbox .forminator-checkbox-box {
+	border-color: black !important;
+	background-color: white !important; /* Checkboxes blanco y negro */
+}
+
+/*pagina book now*/
+#search-retreatsselect[name="mphb_adults"].mphb_sc_search-adults {
+	display: none !important; /* Oculta selector de adultos */
+}
+
+.mphb_sc_search-tipo-de-reserva {
+	display: none; /* Oculta selector de tipo de reserva */
+}
+
+/*pagina de search results estilos*/
+#titulo-vacaciones p.mphb_sc_search_results-info  {
+	display: none !important; /* Oculta info de resultados */
+}
+
+#titulo-vacaciones div.titulo-vacaciones {
+	display: none; /* Oculta título de vacaciones */
+}
+
+#titulo-reserva {
+	display: none; /* Oculta título de reserva */
+}
+
+/*calendario disponibilidad del search-form*/
+.datepick-popup .mphb-datepicker-sky-blue.mphb-datepick-popup .datepick-month td .mphb-selectable-date {
+	color: black ;
+	font-size: 15px; /* Fechas seleccionables negras y legibles */
+}
+
+.datepick-popup .mphb-datepicker-sky-blue.mphb-datepick-popup .datepick-month td .mphb-past-date,
+.datepick-popup .mphb-datepicker-sky-blue.mphb-datepick-popup .datepick-month td .mphb-unselectable-date {
+	font-size: 15px; /* Fechas pasadas y no seleccionables con mismo tamaño */
+}
+
+.datepick-month.last {  
+	display:none;  /* Oculta segundo mes en calendario */
+}  
+
+.mphb-calendar .mphb-datepicker-sky-blue .datepick-month.first,
+.datepick-popup .mphb-datepicker-sky-blue .datepick-month.first {
+	width: 100%;
+}
+
+.datepick-month.first {
+	width: 120px; /* Ajuste de ancho al primer mes */
+}
+
+/*booking confirmation page*/
+#booking-info .mphb-room-number {
+	display: none; /* Oculta número de habitación */
+}
+
+#booking-info .mphb-room-type-title {
+	display: none; /* Oculta tipo de habitación */
+}
+
+#booking-info .mphb-login-form-wrap {
+	display: none; /* Oculta login en confirmación */
+}
+
+/*formulario de retreat*/
+.elementor-field-option {
+	margin: 2px; /* Margen entre opciones */
+}
+
+.service-data {
+	font-weight: normal; /* Texto de servicios normal */
+}
+
+input#form-field-message-1,
+input#form-field-message-3,
+input#form-field-message-5,
+input#form-field-message-7,
+input#form-field-message-9,
+input#form-field-message-11,
+input#form-field-message-13,
+input#form-field-message-15 {
+	display: none; /* Oculta campos invisibles en formularios */
+}
+
+/*formulario de la pagina de chekout*/
+a.mphb-price-breakdown-accommodation.mphb-price-breakdown-expand {
+	display: none; /* Oculta desglose de precios en checkout, en telefono se muestra*/
+}

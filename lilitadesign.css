@@ -1,0 +1,337 @@
+/* ------------------------------------------
+  NAVBAR Y CARRITO
+------------------------------------------ */
+
+/* Icono del carrito en el navbar */
+#elementor-menu-cart__toggle_button {
+	padding: 0px;
+}
+
+/* Estilos del mensaje al añadir producto al carrito */
+.woocommerce-message {
+	border-top-color: black;
+	text-align: center;
+	font-size: 17px;
+}
+
+.woocommerce-message::before {
+	color: black;
+}
+
+/* Ocultar botón de ir al carrito desde mensaje */
+div.woocommerce-message a.button.wc-forward {
+	display: none !important;
+}
+
+/* Icono del mensaje de compra */
+.wpr-checkout-notice .woocommerce-message:before,
+.woocommerce-notices-wrapper .woocommerce-message:before {
+	display: none !important;
+}
+
+/* ------------------------------------------
+  PRODUCTOS EN EL CARRITO
+------------------------------------------ */
+
+/* Nombre y enlace de producto */
+.elementor-menu-cart__product-name .product-name, a {
+	font-family: Helvetica;
+	color: black;
+	font-size: 18px;
+}
+
+/* Hover en los enlaces */
+.elementor-menu-cart__product-name .product-name, a:hover {
+	color: #AFAFAF;
+}
+
+/* Precio del producto en el carrito */
+.elementor-menu-cart__product-price {
+	font-size: 18px !important;
+}
+
+/* Botones del off-canvas del carrito */
+a.button.wc-forward,
+.elementor-widget-woocommerce-menu-cart .elementor-menu-cart__footer-buttons a.elementor-button--view-cart,
+.elementor-widget-woocommerce-menu-cart .elementor-menu-cart__footer-buttons a.elementor-button--checkout {
+	background-color: black;
+	color: white;
+	margin: 5px !important;
+	padding: 10px;
+}
+
+/* Ocultar productos vacíos */
+div.cart-empty.woocommerce-info {
+	background-color: black;
+	color: white;
+}
+
+p.return-to-shop,
+a.added_to_cart.wc-forward,
+ul.flex-direction-nav {
+	display: none;
+}
+
+/* Estilo para items individuales del carrito */
+li.woocommerce-mini-cart-item.mini_cart_item {
+	margin-bottom: 20px !important;
+}
+
+/* ------------------------------------------
+  BOTONES DE COMPRA / AÑADIR CARRITO
+------------------------------------------ */
+
+/* Botón de producto simple (Añadir al carrito o Leer más) */
+a.button.product_type_simple,
+a.button.product_type_external,
+a.wc-buy-now-btn.wc-buy-now-btn-archive.button.add_to_cart_button {
+	background-color: white !important;
+	color: black !important;
+	margin-bottom: 10px;
+	font-family: Helvetica !important;
+}
+
+/* Hover de botones */
+a.button.product_type_simple:hover,
+a.button.product_type_external:hover,
+a.wc-buy-now-btn.wc-buy-now-btn-archive.button.add_to_cart_button:hover,
+a.elementor-button.elementor-button-link.elementor-size-sm:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0 0, rgb(0, 0, 0) 0 0 0 1px;
+}
+
+/* Botón en versión móvil */
+@media (max-width: 450px) {
+	a.button.product_type_simple,
+	a.wc-buy-now-btn.wc-buy-now-btn-archive.button.add_to_cart_button {
+		margin-bottom: 30px;
+	}
+}
+
+/* Ocultar botones en pantallas grandes */
+@media (min-width: 1200px) {
+	a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		display: none !important;
+	}
+}
+
+/* Margen en botón dentro del loop de productos */
+.woocommerce ul.products li.product .button {
+	margin-top: 0;
+}
+
+/* Stock */
+p.stock.in-stock {
+	display: none;
+}
+
+/* ------------------------------------------
+  MENSAJES Y NOTIFICACIONES
+------------------------------------------ */
+
+.wpr-checkout-notice .woocommerce-error,
+.woocommerce-notices-wrapper .woocommerce-error,
+.wpr-checkout-notice .woocommerce-message,
+.woocommerce-notices-wrapper .woocommerce-message {
+	display: block;
+}
+
+.woocommerce-info::before {
+	color: white;
+}
+
+.woocommerce-info {
+	border-top-color: black;
+}
+
+/* ------------------------------------------
+  FORMULARIOS DE NEWSLETTER (MAILPOET)
+------------------------------------------ */
+
+input.mailpoet_submit {
+	border-radius: 0;
+	border: solid 1px black !important;
+	background-color: white !important;
+	color: black !important;
+	margin-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: Helvetica;
+	font-size: 18px !important;
+}
+
+input.mailpoet_submit:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0 0, rgb(0, 0, 0) 0 0 0 1px;
+}
+
+input.mailpoet_submit:focus {
+	background-color: white !important;
+}
+
+/* Mensaje de éxito */
+p.mailpoet-submit-success {
+	color: black !important;
+	font-size: 1.2rem;
+	font-family: Helvetica;
+}
+
+/* Página de gestión de suscripción */
+form.mailpoet-manage-subscription.customize-unpreviewable {
+	width: 80%;
+	font-size: 1.1rem;
+	font-family: Helvetica;
+}
+
+span.mailpoet-change-email-info {
+	font-size: 1rem !important;
+	font-family: Helvetica;
+}
+
+div.mailpoet_paragraph label {
+	margin: 5px;
+}
+
+/* ------------------------------------------
+  FORMULARIO DE CONTACTO (WPForms)
+------------------------------------------ */
+
+#wpforms-submit-4777 {
+	text-align: center !important;
+	color: black;
+	background-color: white !important;
+	border: solid 1px black !important;
+	border-radius: 0;
+}
+
+#wpforms-submit-4777:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0 0, rgb(0, 0, 0) 0 0 0 1px;
+}
+
+#wpforms-4777-field_0,
+#wpforms-4777-field_3,
+#wpforms-4777-field_4,
+#wpforms-4777-field_2 {
+	background-color: #ffffffc4 !important;
+}
+
+#wpforms-4777-field_0:hover,
+#wpforms-4777-field_0:focus,
+#wpforms-4777-field_3:hover,
+#wpforms-4777-field_3:focus,
+#wpforms-4777-field_4:hover,
+#wpforms-4777-field_4:focus,
+#wpforms-4777-field_2:hover,
+#wpforms-4777-field_2:focus {
+	background-color: white !important;
+}
+
+div.wpforms-container-full .wpforms-field-label {
+	color: white;
+}
+
+div.wpforms-container-full .wpforms-field-sublabel {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+/* ------------------------------------------
+  BLOG Y RELACIONADOS
+------------------------------------------ */
+
+@media only screen and (min-width: 1024px) {
+	.elementor-3201 .elementor-element.elementor-element-2dc2037b .wpr-grid-item-title .inner-block a {
+		padding-right: 150px;
+	}
+
+	.wpr-grid-item-excerpt .inner-block p,
+	.wpr-insta-feed-item-caption .inner-block p {
+		width: 80%;
+	}
+}
+
+section.related.products {
+	color: red !important;
+	background-color: black;
+}
+
+.woocommerce .elementor-widget-woocommerce-product-related.elementor-wc-products .products > h2 {
+	display: none;
+}
+
+.woocommerce-loop-product__title:hover {
+	text-decoration: underline;
+}
+
+/* ------------------------------------------
+  REGISTRO DE USUARIOS (PMPro)
+------------------------------------------ */
+
+h2.pmpro_card_title,
+h2.pmpro_form_heading.pmpro_font-large {
+	display: none;
+}
+
+.pmpro_level_cost_text {
+	display: none;
+}
+
+.pmpro_level_name_text,
+.pmpro_level_description_text {
+	text-align: center;
+}
+
+#pmpro_user_fields,
+#pmpro_form_fieldset-usuario-particular,
+#pmpro_form_fieldset-usuario-profesional {
+	border: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-radius: 0;
+}
+
+#pmpro_btn-submit,
+.pmpro_btn,
+.pmpro_btn-submit-update-profile {
+	border-color: black;
+	color: black;
+	border-radius: 1px;
+}
+
+#pmpro_btn-submit:hover,
+#pmpro_btn-submit:focus,
+#pmpro_btn-submit:active,
+button.pmpro_btn:hover,
+button.pmpro_btn:focus,
+button.pmpro_btn:active {
+	background-color: white;
+	box-shadow: 0 0 0 1px #000;
+	outline: none;
+	color: black;
+}
+
+.pmpro_form_submit {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ------------------------------------------
+  AJUSTES DE TIPOGRAFÍA GENERAL
+------------------------------------------ */
+
+.elementor-widget-text-editor {
+	color: black;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+bdi {
+	color: black;
+}
